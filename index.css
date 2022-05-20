@@ -467,6 +467,26 @@ padding:.8rem;
  grid-template-columns: repeat(3, 1fr);
  column-gap: 2rem;
 }
+.About_content{
+ width: 80%;
+ margin:auto;
+}
+
+.About_header h4{
+color: black;
+text-align: center;
+margin:1rem;
+border-bottom: 4px solid red;
+width:6rem;
+margin: auto;
+}
+.About_content img{
+ width:100%;
+}
+.About_text p{
+ font-family: 'Lato', sans-serif;
+
+}
 
 
 
@@ -480,8 +500,6 @@ padding:.8rem;
  /******Media Query******/
  @media screen and  (max-width: 768px) {
 
-
-  
 .general_container{
  max-width:100%;
 }
