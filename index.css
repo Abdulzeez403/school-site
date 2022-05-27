@@ -79,9 +79,28 @@ font-size: .8rem;
 .slideshow-container {
  max-width: 1000px;
  margin: auto;
+ position: relative;
 
-  
+
 }
+/* School slogan */
+.slogan{
+  text-align: center;
+  position: absolute;
+  z-index: 1000;
+ margin-top: 7rem;
+}
+.slogan p{
+ color: white;
+}
+.slogan h3{
+ color: blue;
+}
+
+
+
+
+
 
 /* Fading animation */
 .fade {
